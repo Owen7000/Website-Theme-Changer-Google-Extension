@@ -1,1 +1,22 @@
+{
+    "name": "I don't know what that",
+    "description": "ahghhhh",
+    "version": "0.1",
+    "manifest_version": 3,
 
+    "options_page": "options.html",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Click Me"
+      },
+
+      "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          },
+          "description": "Opens the extension window"
+        }
+    }
+}
