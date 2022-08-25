@@ -1,0 +1,15 @@
+body {
+    background-color: #2C3333;
+}
+
+p {
+    color: #E7F6F2;
+}
+
+nav {background-color: #2C3333;}
+
+nav ul {list-style-type:none}
+nav ul li {float:left; width:120px; text-align:center}
+nav {height:38px}
+nav ul li a {color: #E7F6F2;; display: block; padding: 10px;}
+nav ul li a:hover {background-color: #A5C9CA; color: #2C3333;}
