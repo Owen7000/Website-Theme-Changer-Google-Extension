@@ -1,22 +1,28 @@
 {
-    "name": "I don't know what that",
-    "description": "ahghhhh",
-    "version": "0.1",
+    "name": "Special Themes",
+    "description": "Currently only works for Microsoft TEAMS but in future I hope to expand this to more",
+    "version": "1",
     "manifest_version": 3,
+    "background": {
+      "service_worker":"background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/get_started16.png",
+        "32": "/images/get_started32.png",
+        "48": "/images/get_started48.png",
+        "128": "/images/get_started128.png"
+      }
+    },
 
     "options_page": "options.html",
-    "action": {
-        "default_popup": "popup.html",
-        "default_title": "Click Me"
-      },
 
-      "commands": {
-        "_execute_action": {
-          "suggested_key": {
-            "default": "Ctrl+Shift+F",
-            "mac": "MacCtrl+Shift+F"
-          },
-          "description": "Opens the extension window"
-        }
+    "icons": {
+      "16": "/images/get_started16.png",
+      "32": "/images/get_started32.png",
+      "48": "/images/get_started48.png",
+      "128": "/images/get_started128.png"
     }
 }
