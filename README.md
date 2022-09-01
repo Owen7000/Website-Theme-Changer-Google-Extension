@@ -1,3 +1,4 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/Owen7000/Website-Theme-Changer-Google-Extension?style=plastic)
 # Website Theme Changer
 
 Welcome to Website Theme Changer. 
